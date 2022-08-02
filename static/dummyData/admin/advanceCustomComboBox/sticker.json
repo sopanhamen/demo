@@ -1,0 +1,23 @@
+{
+  "placeholder": "common.select_sticker",
+  "options": [
+    {
+      "name": "common.urgent_sale",
+      "sub_title": "common.sticker_sub_title",
+      "code": "US",
+      "img": "https://c21m.domain.com/remadmin/public/images/proposal_template/urgent_sale.png"
+    },
+    {
+      "name": "common.sold",
+      "sub_title": "common.sticker_sub_title",
+      "code": "Sold",
+      "img": "https://c21m.domain.com/remadmin/public/images/proposal_template/sold.png"
+    },
+    {
+      "name": "common.not_available",
+      "sub_title": "common.sticker_sub_title",
+      "code": "NA",
+      "img": "https://c21m.domain.com/remadmin/public/images/proposal_template/not_vailble.png"
+    }
+  ]
+}

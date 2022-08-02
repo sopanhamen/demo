@@ -1,0 +1,35 @@
+/* eslint-disable camelcase */
+export const message = {
+  success_create: 'បានរក្សាទុកជោគជ័យ',
+  success_update: 'បានរក្សាទុកជោគជ័យ',
+  success_approve: 'បានរយល់ព្រមជោគជ័យ',
+  success_publish: 'បានបោះផ្សាយជោគជ័យ',
+  success_delete: 'បានរលុបចោលជោគជ័យ',
+  success_restore: 'បានរស្ដារពីធុងសម្រាមជោគជ័យ',
+  success_import: 'បានរក្សារទន្នន័យជោគជ័យ',
+  success_delete_image: 'រូបភាពត្រូវបានរលុបចោលជោគជ័យ',
+  success_delete_file: 'ឯកសារត្រូវបានរលុបចោលជោគជ័យ',
+  success_file: 'ឯកសារត្រូវបានរលុបចោលជោគជ័យ',
+  error_create: 'ព្យាយាមរក្សាទុកមិនជោគជ័យ',
+  error_update: 'ព្យាយាមរក្សាទុកមិនជោគជ័យ',
+  error_upload: 'រក្សាទុកឯកសារបរាជ័យ',
+  error_approve: 'ព្យាយាមយល់ព្រមមិនជោគជ័យ',
+  error_publish: 'ព្យាយាមបោះផ្សាយមិនជោគជ័យ',
+  error_delete: 'ព្យាយាមរលុបមិនជោគជ័យ',
+  error_restore: 'ព្យាយាមស្ដារពីធុងសម្រាមមិនជោគជ័យ',
+  error_import: 'រក្សារទិន្នន័យមិនជោគជ័យ',
+  error_saving: 'រក្សាទុកឯកសារបរាជ័យ!',
+  error_send_mail: 'មិនអាចផ្ញើរចេញ! សូមព្យាយាមម្ដងទៀត។.',
+  confirm_approve: 'ពិតជាយល់ព្រមពិតមែនឬ?',
+  confirm_publish: 'ពិតជាចង់បោះផ្សាយមែនឬ?',
+  confirm_delete: 'ពិតជាចង់លុបពិតមែនឬ?',
+  confirm_delete_property_visited:
+    'មិនអាចលុបបានទេ។ ទ្រព្យសម្បត្តិនេះត្រូវបានទស្សនា។',
+  confirm_restore: 'ពិតជាចង់ស្ដារពីធុងសម្រាមពិតមែនឬ?',
+  unauthorized: 'UNAUTHORIZED!! មិនអនុញ្ញាតឲ្យចូលមកកាន់ទីនេះទេ!',
+  no_property_found: 'មិនមានអចលនទ្រព្យសម្រាប់បង្ហាញទេ',
+  item_being_used: 'ធាតុនេះកំពុងត្រូវបានប្រើប្រាស់',
+  received_inquiry:
+    'យើងទទួលបានសាររបស់អ្នក។ ក្រុមការងាររបស់យើងនឹងទាក់ទងអ្នកឆាប់ៗនេះ!',
+  trash_info: 'អ្នកកំពុងតែបើកមើលទិន្នន័យដែលបានលុប!'
+}

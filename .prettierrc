@@ -1,9 +1,10 @@
 {
-  "arrowParens": "always",
-  "semi": false,
-  "tabWidth": 4,
-  "singleQuote": true,
-  "trailingComma": "all",
-  "useTabs": false,
-  "tailwindConfig": "./tailwind.config.js"
+    "arrowParens": "always",
+    "semi": false,
+    "tabWidth": 4,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "useTabs": false,
+    "tailwindConfig": "./tailwind.config.js",
+    "editor.formatOnSave": true
 }
