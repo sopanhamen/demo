@@ -1,16 +1,16 @@
-<template></template>
+<template>
+    <main class="bg-gray-100 h-screen grid grid-cols-1 place-items-center">
+        <nuxt class="text-sm" />
+    </main>
+</template>
 
 <script>
-import { defineComponent } from '@vue/composition-api'
-
-export default defineComponent({
-    name: 'adminLayout',
-    middleware: ['auth', 'authorized', 'team'],
-    loading: {
-        continuous: true
-    },
-    setup() {
-        const {} = useResource
+export default {
+    name: 'LayoutAuth',
+    head() {
+        return {
+            title: this.$config.app.name
+        }
     }
-})
+}
 </script>

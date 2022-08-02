@@ -1,13 +1,7 @@
-<template>
-    <div class="container">
-        <NuxtLink to="/">Home page</NuxtLink>
-    </div>
-</template>
+<template></template>
 <script>
 export default {
-    components: {}
-    // layout(context) {
-    //     return 'admin'
-    // }
+    name: 'PageAdminDashboard',
+    layout: 'admin'
 }
 </script>
