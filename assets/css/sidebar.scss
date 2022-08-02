@@ -1,0 +1,72 @@
+/***********************************************/
+/* Used in Admin dashboard layout */
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollpanel-bar {
+  .p-scrollpanel-wrapper {
+    @apply bg-red-50;
+  }
+
+  .p-scrollpanel-bar {
+    opacity: 1;
+    transition: background-color 0.2s;
+    &:hover {
+      @apply bg-red-200;
+    }
+  }
+}
+
+/***********************************************/
+
+/* Layout Admin */
+.menu-group-section {
+  @apply mb-8;
+}
+
+.menu-group-title {
+  @apply font-bold uppercase px-4;
+}
+/* ************************ */
+
+/* Admin MenuItem Component */
+.badge {
+  @apply text-xs bg-red-600 text-white rounded-full px-2 py-0.5 self-center;
+}
+
+.menu-item-wrapper {
+  @apply flex flex-col;
+}
+
+.menu-item {
+  @apply flex justify-between px-4 py-2 hover:bg-white cursor-pointer;
+}
+
+.child {
+  @apply ml-2;
+}
+
+.submenu-item {
+  @apply flex justify-between cursor-pointer px-4 py-2;
+  @apply text-gray-700 hover:bg-white border-l-2;
+}
+
+@media (min-width: 768px) {
+  .md-min-w-16 {
+    min-width: 4rem /* 64px */ !important;
+  }
+}
+@media (min-width: 768px) {
+  .md-min-w-64 {
+    min-width: 16rem /* 256px */ !important;
+  }
+}
+/* ************************ */
