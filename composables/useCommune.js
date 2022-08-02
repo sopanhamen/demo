@@ -1,13 +1,22 @@
 import { useStore } from '@nuxtjs/composition-api'
 
 export default function useCommune() {
-    const store = useStore()
+  const store = useStore()
 
-    const findCommuneIdByName = (name, districtId) => {
-        if (!name) return null
+  const findCommuneIdByName = (name, districtId) => {
+    if (!name) {
+      return null
     }
 
-    return {
-        fetchCommune
+    const commune = store.getters['commune/getCommuneByName'](name, districtId)
+    if (!commune) {
+      return null
     }
+
+    return commune.id
+  }
+
+  return {
+    findCommuneIdByName
+  }
 }
