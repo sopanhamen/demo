@@ -1,14 +1,28 @@
 <template>
-  <div class="container">
-    <h1 v-if="error.statusCode === 404">Page not found</h1>
-    <h1 v-else>An error occurred</h1>
-    <NuxtLink to="/">Home page</NuxtLink>
-  </div>
+    <div>
+        <error-401 v-if="error.statusCode === 401" />
+        <error-403 v-else-if="error.statusCode === 403" />
+        <error-404 v-else-if="error.statusCode === 404" />
+        <error-500 v-else-if="error.statusCode === 500" />
+        <error-unknown v-else />
+    </div>
 </template>
 
 <script>
 export default {
-  props: ['error'],
-  layout: 'admin.layout' // you can set a custom layout for the error page
+    layout: 'error',
+    props: {
+        error: {
+            type: Object,
+            default() {
+                return {}
+            }
+        }
+    },
+    head() {
+        return {
+            title: this.$config.app.name
+        }
+    }
 }
 </script>
