@@ -1,27 +1,27 @@
 .vs__selected-options {
-  flex-wrap: nowrap;
-  max-width: calc(100% - 41px);
-  height: 27px;
+    flex-wrap: nowrap;
+    max-width: calc(100% - 41px);
+    height: 27px;
 }
 
 .vs__selected {
-  display: block;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  max-width: 100%;
-  overflow: hidden;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .vs__search {
-  position: absolute;
+    position: absolute;
 }
 
 .vs--open {
-  .vs__search {
-    position: static;
-  }
+    .vs__search {
+        position: static;
+    }
 }
 
 .vs__dropdown-option {
-  white-space: normal;
+    white-space: normal;
 }

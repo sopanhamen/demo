@@ -1,50 +1,50 @@
 {
-  "editor.formatOnSave": true,
-  "vetur.validation.template": false,
-  "files.eol": "\n",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "vue3snippets.enable-compile-vue-file-on-did-save-code": false
-  },
-  "editor.rulers": [80],
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "files.autoSave": "off",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "cSpell.words": [
-    "appa",
-    "axios",
-    "Battambang",
-    "composables",
-    "datatable",
-    "dataview",
-    "geolocate",
-    "gmap",
-    "inputgroup",
-    "inputtext",
-    "lintfix",
-    "LMAP",
-    "nuxtjs",
-    "Penh",
-    "Phnom",
-    "postcss",
-    "primevue",
-    "stylelint",
-    "tailwind",
-    "tailwindcss",
-    "tiktok",
-    "toggleable",
-    "unlisting",
-    "unlistings",
-    "Vuelidate",
-    "wechat",
-    "ភាសាខ្មែរ"
-  ]
+    "editor.formatOnSave": true,
+    "vetur.validation.template": false,
+    "files.eol": "\n",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "vue3snippets.enable-compile-vue-file-on-did-save-code": false
+    },
+    "editor.rulers": [80],
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.autoSave": "off",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "cSpell.words": [
+        "appa",
+        "axios",
+        "Battambang",
+        "composables",
+        "datatable",
+        "dataview",
+        "geolocate",
+        "gmap",
+        "inputgroup",
+        "inputtext",
+        "lintfix",
+        "LMAP",
+        "nuxtjs",
+        "Penh",
+        "Phnom",
+        "postcss",
+        "primevue",
+        "stylelint",
+        "tailwind",
+        "tailwindcss",
+        "tiktok",
+        "toggleable",
+        "unlisting",
+        "unlistings",
+        "Vuelidate",
+        "wechat",
+        "ភាសាខ្មែរ"
+    ]
 }

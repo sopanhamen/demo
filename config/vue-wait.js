@@ -1,3 +1,3 @@
 export const vueWait = {
-  useVuex: true
+    useVuex: true
 }

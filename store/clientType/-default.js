@@ -1,4 +1,4 @@
 export const form = {
-  name: null,
-  published: false
+    name: null,
+    published: false
 }

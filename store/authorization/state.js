@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
 export default () => ({
-  user: null,
-  permissions: []
+    user: null,
+    permissions: []
 })

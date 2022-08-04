@@ -1,9 +1,9 @@
 version: '3'
 
 services:
-  appa-web:
-    image: registry.gitlab.com/appappraisal/realestate/appa-web:latest
-    build:
-      context: ./
-      dockerfile: Dockerfile
-    restart: always
+    appa-web:
+        image: registry.gitlab.com/appappraisal/realestate/appa-web:latest
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        restart: always

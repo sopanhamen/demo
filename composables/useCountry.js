@@ -1,36 +1,36 @@
 import { useStore } from '@nuxtjs/composition-api'
 
 export default function useCountry() {
-  const store = useStore()
+    const { store } = useStore()
 
-  const findCountryIdByName = (name) => {
-    if (!name) {
-      return null
+    const findCountryIdByName = (name) => {
+        if (!name) {
+            return null
+        }
+
+        const country = store.getters['country/getCountryByName'](name)
+        if (!country) {
+            return null
+        }
+
+        return country.id
     }
 
-    const country = store.getters['country/getCountryByName'](name)
-    if (!country) {
-      return null
+    const findCountryByName = (name) => {
+        if (!name) {
+            return null
+        }
+
+        const country = store.getters['country/getCountryByName'](name)
+        if (!country) {
+            return null
+        }
+
+        return country
     }
 
-    return country.id
-  }
-
-  const findCountryByName = (name) => {
-    if (!name) {
-      return null
+    return {
+        findCountryIdByName,
+        findCountryByName
     }
-
-    const country = store.getters['country/getCountryByName'](name)
-    if (!country) {
-      return null
-    }
-
-    return country
-  }
-
-  return {
-    findCountryIdByName,
-    findCountryByName
-  }
 }

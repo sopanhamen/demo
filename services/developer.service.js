@@ -1,10 +1,10 @@
 import { BaseService } from './base.service'
 
 export class DeveloperService extends BaseService {
-  endpoint = 'developers'
+    endpoint = 'developers'
 
-  async exports() {
-    const url = `${this.endpoint}/exports`
-    return await this.http.post(url, {}, { responseType: 'blob' })
-  }
+    async exports() {
+        const url = `${this.endpoint}/exports`
+        return await this.http.post(url, {}, { responseType: 'blob' })
+    }
 }

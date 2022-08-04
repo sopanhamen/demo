@@ -1,8 +1,5 @@
 <template>
     <div class="mx-auto container max-w-lg">
-        <div class="grid justify-items-center -mt-16 py-8">
-            <app-logo image-class="h-36" />
-        </div>
         <pv-message
             v-if="incorrect"
             :closable="false"
@@ -12,7 +9,10 @@
             {{ $t('common.something_went_wrong') }}
         </pv-message>
 
-        <form class="bg-white shadow-md rounded-xl p-7">
+        <form
+            class="bg-white shadow-md rounded-xl p-7"
+            @submit.prevent="loginUser"
+        >
             <p class="text-center font-bold text-xl mb-4">
                 {{ $t('common.sign_in_title') }}
             </p>
@@ -27,7 +27,6 @@
                     <i class="pi pi-envelope" />
                 </span>
             </div>
-
             <div class="mb-4 p-inputgroup">
                 <password
                     v-model="credentials.password"
@@ -55,6 +54,13 @@
                         {{ $t('common.remember_me') }}
                     </label>
                 </div>
+                <button
+                    :disabled="loading"
+                    class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-7 rounded-md"
+                    type="submit"
+                >
+                    {{ $t('common.sign_in') }}
+                </button>
             </div>
             <div>
                 <nuxt-link
@@ -65,25 +71,23 @@
                 </nuxt-link>
             </div>
         </form>
+        <app-version class="text-center py-4 text-gray-500" />
     </div>
 </template>
 
 <script>
 import {
-    defineComponent,
     ref,
     useContext,
-    useStore
+    useStore,
+    defineComponent
 } from '@nuxtjs/composition-api'
 
 export default defineComponent({
-    name: 'LayoutAuth',
-    layout: 'auth',
-    middleware: 'guest',
     setup() {
         const { $auth, redirect } = useContext()
-
         const { commit } = useStore()
+
         const loading = ref(false)
         const incorrect = ref(false)
         const credentials = ref({
@@ -106,6 +110,7 @@ export default defineComponent({
                             selectedSubItem: null
                         }
                     })
+
                     commit('crud/CLEAR_ALL_DATA')
                     commit('user/ClEAR_ALL_DATA')
                     commit('userTeam/ClEAR_ALL_DATA')
@@ -125,13 +130,14 @@ export default defineComponent({
 
                     return redirect('/admin')
                 }
-            } catch (error) {
+            } catch (err) {
                 loading.value = false
                 incorrect.value = true
             } finally {
                 loading.value = false
             }
         }
+
         return { credentials, loading, incorrect, loginUser }
     }
 })

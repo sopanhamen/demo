@@ -4,126 +4,140 @@
 
 html,
 .p-component {
-  font-size: 13px;
+    font-size: 13px;
 }
 
 @layer base {
-  [data-color='default'] {
-    --color-primary: #f59e0b !important;
-    --color-primary-thick: rgba(234, 179, 8, var(--tw-bg-opacity)) !important;
-    --color-primary-light: rgba(254, 240, 138, var(--tw-bg-opacity)) !important;
-    --color-primary-lighter: #fffbeb !important;
-    --color-light: rgba(254, 240, 138, var(--tw-bg-opacity)) !important;
-    --color-secondary: #374151 !important;
-    --color-success: rgba(22, 163, 74, var(--tw-bg-opacity)) !important;
-    --color-warning: rgba(202, 138, 4, var(--tw-bg-opacity)) !important;
-    --color-danger: rgb(239 68 68 / var(--tw-text-opacity)) !important;
-  }
-  [data-color='sunset'] {
-    --color-primary: #f47213 !important;
-    --color-primary-thick: #ab4d07 !important;
-    --color-primary-light: #ffbf91 !important;
-    --color-primary-lighter: #ffe2cd !important;
-    --color-light: rgba(254, 240, 138, var(--tw-bg-opacity)) !important;
-    --color-secondary: #374151 !important;
-    --color-success: rgba(22, 163, 74, var(--tw-bg-opacity)) !important;
-    --color-warning: rgba(202, 138, 4, var(--tw-bg-opacity)) !important;
-    --color-danger: rgb(239 68 68 / var(--tw-text-opacity)) !important;
-  }
-  [data-color='rose'] {
-    --color-primary: #7a1121 !important;
-    --color-primary-thick: #dc2626 !important;
-    --color-primary-light: #fee2e2 !important;
-    --color-primary-lighter: #fef2f2 !important;
-    --color-light: #e7e5e4 !important;
-    --color-secondary: #374151 !important;
-    --color-success: #047857 !important;
-    --color-warning: #f59e0b !important;
-    --color-danger: rgb(239 68 68 / var(--tw-text-opacity)) !important;
-  }
-  [data-color='red'] {
-    --color-primary: #791021 !important;
-    --color-primary-thick: #650918 !important;
-    --color-primary-light: #e6b3bc !important;
-    --color-primary-lighter: #f8dadf !important;
-    --color-light: #e7e5e4 !important;
-    --color-secondary: #32030a !important;
-    --color-success: #047857 !important;
-    --color-warning: #f59e0b !important;
-    --color-danger: rgb(239 68 68 / var(--tw-text-opacity)) !important;
-  }
-  [data-color='green'] {
-    --color-primary: #0a7b5d !important;
-    --color-primary-thick: #073628 !important;
-    --color-primary-light: #71a395 !important;
-    --color-primary-lighter: #e4f5f0 !important;
-    --color-light: #e7e5e4 !important;
-    --color-secondary: #c3ab84 !important;
-    --color-success: #047857 !important;
-    --color-warning: #f59e0b !important;
-    --color-danger: rgb(239 68 68 / var(--tw-text-opacity)) !important;
-  }
+    [data-color='default'] {
+        --color-primary: #f59e0b !important;
+        --color-primary-thick: rgba(
+            234,
+            179,
+            8,
+            var(--tw-bg-opacity)
+        ) !important;
+        --color-primary-light: rgba(
+            254,
+            240,
+            138,
+            var(--tw-bg-opacity)
+        ) !important;
+        --color-primary-lighter: #fffbeb !important;
+        --color-light: rgba(254, 240, 138, var(--tw-bg-opacity)) !important;
+        --color-secondary: #374151 !important;
+        --color-success: rgba(22, 163, 74, var(--tw-bg-opacity)) !important;
+        --color-warning: rgba(202, 138, 4, var(--tw-bg-opacity)) !important;
+        --color-danger: rgb(239 68 68 / var(--tw-text-opacity)) !important;
+    }
+    [data-color='sunset'] {
+        --color-primary: #f47213 !important;
+        --color-primary-thick: #ab4d07 !important;
+        --color-primary-light: #ffbf91 !important;
+        --color-primary-lighter: #ffe2cd !important;
+        --color-light: rgba(254, 240, 138, var(--tw-bg-opacity)) !important;
+        --color-secondary: #374151 !important;
+        --color-success: rgba(22, 163, 74, var(--tw-bg-opacity)) !important;
+        --color-warning: rgba(202, 138, 4, var(--tw-bg-opacity)) !important;
+        --color-danger: rgb(239 68 68 / var(--tw-text-opacity)) !important;
+    }
+    [data-color='rose'] {
+        --color-primary: #7a1121 !important;
+        --color-primary-thick: #dc2626 !important;
+        --color-primary-light: #fee2e2 !important;
+        --color-primary-lighter: #fef2f2 !important;
+        --color-light: #e7e5e4 !important;
+        --color-secondary: #374151 !important;
+        --color-success: #047857 !important;
+        --color-warning: #f59e0b !important;
+        --color-danger: rgb(239 68 68 / var(--tw-text-opacity)) !important;
+    }
+    [data-color='red'] {
+        --color-primary: #791021 !important;
+        --color-primary-thick: #650918 !important;
+        --color-primary-light: #e6b3bc !important;
+        --color-primary-lighter: #f8dadf !important;
+        --color-light: #e7e5e4 !important;
+        --color-secondary: #32030a !important;
+        --color-success: #047857 !important;
+        --color-warning: #f59e0b !important;
+        --color-danger: rgb(239 68 68 / var(--tw-text-opacity)) !important;
+    }
+    [data-color='green'] {
+        --color-primary: #0a7b5d !important;
+        --color-primary-thick: #073628 !important;
+        --color-primary-light: #71a395 !important;
+        --color-primary-lighter: #e4f5f0 !important;
+        --color-light: #e7e5e4 !important;
+        --color-secondary: #c3ab84 !important;
+        --color-success: #047857 !important;
+        --color-warning: #f59e0b !important;
+        --color-danger: rgb(239 68 68 / var(--tw-text-opacity)) !important;
+    }
 
-  [data-font='nunito'] {
-    --font-family: Battambang, Nunito, ui-sans-serif, system-ui, -apple-system,
-      BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
-      'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-      'Segoe UI Symbol', 'Noto Color Emoji' !important;
-  }
-  [data-font='lato'] {
-    --font-family: Battambang, Lato, ui-sans-serif, system-ui, -apple-system,
-      BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
-      'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-      'Segoe UI Symbol', 'Noto Color Emoji' !important;
-  }
-  [data-font='quicksand'] {
-    --font-family: Battambang, Quicksand, ui-sans-serif, system-ui,
-      -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
-      Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-      'Segoe UI Symbol', 'Noto Color Emoji' !important;
-  }
-  [data-font='raleway'] {
-    --font-family: Battambang, Raleway, ui-sans-serif, system-ui, -apple-system,
-      BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
-      'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-      'Segoe UI Symbol', 'Noto Color Emoji' !important;
-  }
-  [data-font='roboto'] {
-    --font-family: Battambang, Roboto, ui-sans-serif, system-ui, -apple-system,
-      BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
-      'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-      'Segoe UI Symbol', 'Noto Color Emoji' !important;
-  }
+    [data-font='nunito'] {
+        --font-family: Battambang, Nunito, ui-sans-serif, system-ui,
+            -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+            'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+            'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+            'Noto Color Emoji' !important;
+    }
+    [data-font='lato'] {
+        --font-family: Battambang, Lato, ui-sans-serif, system-ui, -apple-system,
+            BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+            'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+            'Segoe UI Symbol', 'Noto Color Emoji' !important;
+    }
+    [data-font='quicksand'] {
+        --font-family: Battambang, Quicksand, ui-sans-serif, system-ui,
+            -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+            'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+            'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+            'Noto Color Emoji' !important;
+    }
+    [data-font='raleway'] {
+        --font-family: Battambang, Raleway, ui-sans-serif, system-ui,
+            -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+            'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+            'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+            'Noto Color Emoji' !important;
+    }
+    [data-font='roboto'] {
+        --font-family: Battambang, Roboto, ui-sans-serif, system-ui,
+            -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+            'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+            'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+            'Noto Color Emoji' !important;
+    }
 }
 
 * {
-  font-family: var(--font-family);
+    font-family: var(--font-family);
 }
 
 p-component,
 .p-inputtext {
-  font-family: var(--font-family) !important;
+    font-family: var(--font-family) !important;
 }
 
 /*Page component */
 .page-enter-active,
 .page-leave-active {
-  transition: opacity 0.2s;
+    transition: opacity 0.2s;
 }
 
 .page-enter,
 .page-leave-to {
-  opacity: 0;
+    opacity: 0;
 }
 
 /*Layout Transition*/
 .layout-enter-active,
 .layout-leave-active {
-  transition: opacity 0.5s;
+    transition: opacity 0.5s;
 }
 .layout-enter,
 .layout-leave-active {
-  opacity: 0;
+    opacity: 0;
 }
 
 @import 'animate.css';

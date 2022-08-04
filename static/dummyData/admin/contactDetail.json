@@ -1,8 +1,8 @@
 [
-  { "title": "contact_detail.name", "value": " SOY VISITH" },
-  { "title": "contact_detail.type", "value": " 3" },
-  { "title": "edit_client.phone1", "value": " 012345789" },
-  { "title": "edit_client.phone2", "value": "012345789" },
-  { "title": "email", "value": "soyvisith32@gmail.com" },
-  { "title": "project.facebook", "value": "www.facebook.com/soy visith" }
+    { "title": "contact_detail.name", "value": " SOY VISITH" },
+    { "title": "contact_detail.type", "value": " 3" },
+    { "title": "edit_client.phone1", "value": " 012345789" },
+    { "title": "edit_client.phone2", "value": "012345789" },
+    { "title": "email", "value": "soyvisith32@gmail.com" },
+    { "title": "project.facebook", "value": "www.facebook.com/soy visith" }
 ]

@@ -1,830 +1,830 @@
 {
-  "name": "Preset 3",
-  "author": "Company",
-  "data": {
-    "theme": "default",
-    "color": "rose",
-    "navbar": {
-      "label": "Default",
-      "name": "LazyNavbarDefault",
-      "props": {
-        "showLanguageSwitcher": true
-      }
-    },
-    "footer": {
-      "label": "Default",
-      "name": "FooterDefault",
-      "props": {
-        "showSocialMedia": true
-      }
-    },
-    "pages": {
-      "home": {
-        "showPageHeader": true,
-        "showBreadcrumb": true,
-        "backgroundColor": null,
-        "classList": "pb-20",
-        "sections": [
-          {
-            "id": "6a1206c1-3e33-44f5-b2a1-3d8ecc1b9151",
+    "name": "Preset 3",
+    "author": "Company",
+    "data": {
+        "theme": "default",
+        "color": "rose",
+        "navbar": {
+            "label": "Default",
+            "name": "LazyNavbarDefault",
             "props": {
-              "paddings": {
-                "top": null,
-                "bottom": null
-              },
-              "margins": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "backgroundColor": "b02142",
-              "classList": "bg-no-repeat xl:bg-right-top lg:bg-right-top md:bg-right-top sm:bg-right-bottom bg-right-bottom bg-contain",
-              "backgroundImage": "http://localhost:3000/_ipx/_/images/house-roofs.png"
-            },
-            "columns": [
-              {
-                "id": "9b06312f-013b-4f2b-b581-98f6b6845f5a",
-                "components": [
-                  {
-                    "name": "LazyBanner",
-                    "label": "Banner",
-                    "props": {
-                      "title": "<undefined><strong style=\"color: rgb(255, 255, 255);\">Find your best property</strong></undefined>",
-                      "subTitle": "<h2><span style=\"color: rgb(255, 255, 255);\">The best place to find your dream property.﻿</span></h2>",
-                      "backgroundColor": null,
-                      "backgroundImage": null,
-                      "classList": "container mx-auto py-48 md:py-20 sm:py-10 text-center text-5xl  animate__animated animate__bounceInDown"
+                "showLanguageSwitcher": true
+            }
+        },
+        "footer": {
+            "label": "Default",
+            "name": "FooterDefault",
+            "props": {
+                "showSocialMedia": true
+            }
+        },
+        "pages": {
+            "home": {
+                "showPageHeader": true,
+                "showBreadcrumb": true,
+                "backgroundColor": null,
+                "classList": "pb-20",
+                "sections": [
+                    {
+                        "id": "6a1206c1-3e33-44f5-b2a1-3d8ecc1b9151",
+                        "props": {
+                            "paddings": {
+                                "top": null,
+                                "bottom": null
+                            },
+                            "margins": {
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0
+                            },
+                            "backgroundColor": "b02142",
+                            "classList": "bg-no-repeat xl:bg-right-top lg:bg-right-top md:bg-right-top sm:bg-right-bottom bg-right-bottom bg-contain",
+                            "backgroundImage": "http://localhost:3000/_ipx/_/images/house-roofs.png"
+                        },
+                        "columns": [
+                            {
+                                "id": "9b06312f-013b-4f2b-b581-98f6b6845f5a",
+                                "components": [
+                                    {
+                                        "name": "LazyBanner",
+                                        "label": "Banner",
+                                        "props": {
+                                            "title": "<undefined><strong style=\"color: rgb(255, 255, 255);\">Find your best property</strong></undefined>",
+                                            "subTitle": "<h2><span style=\"color: rgb(255, 255, 255);\">The best place to find your dream property.﻿</span></h2>",
+                                            "backgroundColor": null,
+                                            "backgroundImage": null,
+                                            "classList": "container mx-auto py-48 md:py-20 sm:py-10 text-center text-5xl  animate__animated animate__bounceInDown"
+                                        },
+                                        "id": "f60b4932-1d39-454e-9a39-9df927be24d4"
+                                    }
+                                ],
+                                "props": []
+                            }
+                        ]
                     },
-                    "id": "f60b4932-1d39-454e-9a39-9df927be24d4"
-                  }
-                ],
-                "props": []
-              }
-            ]
-          },
-          {
-            "id": "1bf56835-2272-4756-b6bc-5fc98368ee77",
-            "props": {
-              "paddings": {
-                "top": "50px",
-                "bottom": "50px"
-              },
-              "margins": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "backgroundColor": null,
-              "class": null,
-              "classList": "bg-gray-100"
-            },
-            "columns": [
-              {
-                "id": "9ac38436-68f7-415e-a055-978035cbc025",
-                "components": [
-                  {
-                    "name": "LazyPropertySearch",
-                    "label": "Search Property",
-                    "props": {
-                      "paddings": {
-                        "top": 0,
-                        "bottom": 0,
-                        "left": 0,
-                        "right": 0
-                      },
-                      "margins": {
-                        "top": 0,
-                        "bottom": 0,
-                        "left": 0,
-                        "right": 0
-                      }
+                    {
+                        "id": "1bf56835-2272-4756-b6bc-5fc98368ee77",
+                        "props": {
+                            "paddings": {
+                                "top": "50px",
+                                "bottom": "50px"
+                            },
+                            "margins": {
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0
+                            },
+                            "backgroundColor": null,
+                            "class": null,
+                            "classList": "bg-gray-100"
+                        },
+                        "columns": [
+                            {
+                                "id": "9ac38436-68f7-415e-a055-978035cbc025",
+                                "components": [
+                                    {
+                                        "name": "LazyPropertySearch",
+                                        "label": "Search Property",
+                                        "props": {
+                                            "paddings": {
+                                                "top": 0,
+                                                "bottom": 0,
+                                                "left": 0,
+                                                "right": 0
+                                            },
+                                            "margins": {
+                                                "top": 0,
+                                                "bottom": 0,
+                                                "left": 0,
+                                                "right": 0
+                                            }
+                                        },
+                                        "id": "927ddc18-9b8d-4a89-a6ab-cb369b06b7d3"
+                                    }
+                                ],
+                                "props": []
+                            }
+                        ]
                     },
-                    "id": "927ddc18-9b8d-4a89-a6ab-cb369b06b7d3"
-                  }
-                ],
-                "props": []
-              }
-            ]
-          },
-          {
-            "id": "b08bc6ba-f766-4f05-a71f-dacd3e9938f5",
-            "props": {
-              "paddings": {
-                "top": "30px",
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "margins": {
-                "top": "0",
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "backgroundColor": "transparent",
-              "class": null,
-              "classList": null
-            },
-            "columns": [
-              {
-                "id": "8dce06a1-b9bd-4fda-a677-6e959d51fdeb",
-                "components": [
-                  {
-                    "name": "LazyPropertyList",
-                    "label": "Property List",
-                    "props": {
-                      "classList": "container mx-auto",
-                      "backgroundColor": null,
-                      "backgroundImage": null
-                    },
-                    "id": "17b9486e-8a92-4b67-bfeb-a8a922925775"
-                  }
-                ],
-                "props": []
-              }
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "showPageHeader": true,
-        "showBreadcrumb": true,
-        "backgroundColor": "f7fafc",
-        "classList": "py-5",
-        "sections": [
-          {
-            "id": "cba54d67-3cd7-484e-a9e8-537a0804a5bd",
-            "props": {
-              "paddings": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "margins": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "backgroundColor": "transparent",
-              "class": null,
-              "classList": "container mx-auto"
-            },
-            "columns": [
-              {
-                "id": "5df571b1-546f-464d-ba60-cf42278bc449",
-                "components": [
-                  {
-                    "name": "LazyPropertyAdvancedSearch",
-                    "label": "Advanced Search Property",
-                    "props": {
-                      "paddings": {
-                        "top": 0,
-                        "bottom": 0,
-                        "left": 0,
-                        "right": 0
-                      },
-                      "margins": {
-                        "top": 0,
-                        "bottom": 0,
-                        "left": 0,
-                        "right": 0
-                      },
-                      "backgroundColor": null,
-                      "backgroundImage": null,
-                      "classList": null,
-                      "style": {
-                        "name": "Default",
-                        "label": "Default"
-                      },
-                      "availableStyles": [
-                        {
-                          "name": "Default",
-                          "label": "Default"
+                    {
+                        "id": "b08bc6ba-f766-4f05-a71f-dacd3e9938f5",
+                        "props": {
+                            "paddings": {
+                                "top": "30px",
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0
+                            },
+                            "margins": {
+                                "top": "0",
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0
+                            },
+                            "backgroundColor": "transparent",
+                            "class": null,
+                            "classList": null
                         },
-                        {
-                          "name": "Square",
-                          "label": "Square"
-                        },
-                        {
-                          "name": "Minimal",
-                          "label": "Compact"
-                        },
-                        {
-                          "name": "Landscape",
-                          "label": "Landscape"
-                        }
-                      ],
-                      "gridStyle": 2
-                    },
-                    "id": "cd48ebc4-3dee-4ba2-b0fe-858b16f6e5f3"
-                  }
-                ],
-                "props": []
-              }
-            ]
-          }
-        ]
-      },
-      "property": {
-        "showPageHeader": true,
-        "showBreadcrumb": true,
-        "backgroundColor": null,
-        "classList": "bg-slate-100",
-        "sections": [
-          {
-            "id": "4f5f5205-250a-4132-a182-3932deb6df14",
-            "props": {
-              "paddings": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "margins": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "backgroundColor": "transparent",
-              "classList": null
-            },
-            "columns": [
-              {
-                "id": "cd5b7b0c-a390-44fe-bbac-7d1a63a175d3",
-                "components": [
-                  {
-                    "id": "a05881ae-1287-47c9-a2b9-5dfa0ec048a9",
-                    "name": "LazyPropertyDetail",
-                    "label": "Property Detail",
-                    "props": {
-                      "paddings": {
-                        "top": 0,
-                        "bottom": 0,
-                        "left": 0,
-                        "right": 0
-                      },
-                      "margins": {
-                        "top": 0,
-                        "bottom": 0,
-                        "left": 0,
-                        "right": 0
-                      },
-                      "style": {
-                        "name": "MapView",
-                        "label": "Map View"
-                      },
-                      "availableStyles": [
-                        {
-                          "name": "BigSlider",
-                          "label": "Big Slider"
-                        },
-                        {
-                          "name": "Compact",
-                          "label": "Compact"
-                        },
-                        {
-                          "name": "MapView",
-                          "label": "Map View"
-                        }
-                      ]
+                        "columns": [
+                            {
+                                "id": "8dce06a1-b9bd-4fda-a677-6e959d51fdeb",
+                                "components": [
+                                    {
+                                        "name": "LazyPropertyList",
+                                        "label": "Property List",
+                                        "props": {
+                                            "classList": "container mx-auto",
+                                            "backgroundColor": null,
+                                            "backgroundImage": null
+                                        },
+                                        "id": "17b9486e-8a92-4b67-bfeb-a8a922925775"
+                                    }
+                                ],
+                                "props": []
+                            }
+                        ]
                     }
-                  }
-                ],
-                "props": []
-              }
-            ]
-          }
-        ]
-      },
-      "maps": {
-        "showPageHeader": true,
-        "showBreadcrumb": true,
-        "backgroundColor": "transparent",
-        "classList": "container mx-auto",
-        "sections": [
-          {
-            "id": "dcfd1983-8a78-4abc-a20d-e93461888379",
-            "props": {
-              "paddings": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "margins": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "backgroundColor": "transparent",
-              "classList": null
+                ]
             },
-            "columns": [
-              {
-                "id": "cead285c-0ebd-4cf9-93c4-8ddb5ee5e3c3",
-                "components": [],
-                "props": []
-              }
-            ]
-          }
-        ]
-      },
-      "agent": {
-        "showPageHeader": false,
-        "showBreadcrumb": true,
-        "backgroundColor": "e7e5e4",
-        "classList": "pb-8",
-        "sections": [
-          {
-            "id": "bc2fbfc4-142a-4ccb-88d3-1f27ac669154",
-            "props": {
-              "paddings": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "margins": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "backgroundColor": "transparent",
-              "classList": "bg-primary"
-            },
-            "columns": [
-              {
-                "id": "bd5e2df3-d1fe-4a11-82d4-533ab13f0e34",
-                "components": [
-                  {
-                    "name": "LazyBanner",
-                    "label": "Banner",
-                    "props": {
-                      "title": "<h1><span style=\"color: rgb(255, 255, 255);\">Our Agents</span></h1>",
-                      "subTitle": "<p><span style=\"color: rgb(255, 255, 255);\">Meet our professional agents</span></p>",
-                      "backgroundColor": null,
-                      "backgroundImage": null,
-                      "classList": "container mx-auto py-12 text-lg"
-                    },
-                    "id": "859c1551-25e4-4479-8c4e-90115d51cca5"
-                  }
-                ],
-                "props": []
-              }
-            ]
-          },
-          {
-            "id": "44cd4fff-80cc-4770-abef-254f07db5a90",
-            "props": {
-              "paddings": [],
-              "margins": [],
-              "backgroundColor": "transparent",
-              "class": null
-            },
-            "columns": [
-              {
-                "id": "c9ec33c3-cb54-4132-b260-94c9186321f7",
-                "components": [
-                  {
-                    "name": "LazyAgentList",
-                    "label": "Agent List",
-                    "props": {
-                      "paddings": {
-                        "top": 0,
-                        "bottom": 0,
-                        "left": 0,
-                        "right": 0
-                      },
-                      "margins": {
-                        "top": 0,
-                        "bottom": 0,
-                        "left": 0,
-                        "right": 0
-                      },
-                      "style": {
-                        "name": "AgentListSquare",
-                        "label": "Agent List Square"
-                      },
-                      "availableStyles": [
-                        {
-                          "name": "AgentListDefault",
-                          "label": "Agent List Default"
+            "properties": {
+                "showPageHeader": true,
+                "showBreadcrumb": true,
+                "backgroundColor": "f7fafc",
+                "classList": "py-5",
+                "sections": [
+                    {
+                        "id": "cba54d67-3cd7-484e-a9e8-537a0804a5bd",
+                        "props": {
+                            "paddings": {
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0
+                            },
+                            "margins": {
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0
+                            },
+                            "backgroundColor": "transparent",
+                            "class": null,
+                            "classList": "container mx-auto"
                         },
-                        {
-                          "name": "AgentListSquare",
-                          "label": "Agent List Square"
-                        }
-                      ]
-                    },
-                    "id": "528321dd-5c16-4bb0-83db-3e21164df3d5"
-                  }
-                ],
-                "props": []
-              }
-            ]
-          }
-        ]
-      },
-      "company": {
-        "showPageHeader": true,
-        "showBreadcrumb": true,
-        "backgroundColor": "transparent",
-        "classList": "container mx-auto",
-        "sections": [
-          {
-            "id": "3bebe74d-d15b-4470-81b6-4fa58171c3bf",
-            "props": {
-              "paddings": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "margins": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "backgroundColor": "transparent",
-              "classList": null
-            },
-            "columns": [
-              {
-                "id": "1c36774c-56c2-43e3-992d-ddbf77722d81",
-                "components": [
-                  {
-                    "id": "8e2d73c3-3f29-403d-ac62-90f518404fb8",
-                    "name": "LazyBanner",
-                    "label": "Banner",
-                    "props": {
-                      "title": "About Us",
-                      "subTitle": "Who we are & our mission"
+                        "columns": [
+                            {
+                                "id": "5df571b1-546f-464d-ba60-cf42278bc449",
+                                "components": [
+                                    {
+                                        "name": "LazyPropertyAdvancedSearch",
+                                        "label": "Advanced Search Property",
+                                        "props": {
+                                            "paddings": {
+                                                "top": 0,
+                                                "bottom": 0,
+                                                "left": 0,
+                                                "right": 0
+                                            },
+                                            "margins": {
+                                                "top": 0,
+                                                "bottom": 0,
+                                                "left": 0,
+                                                "right": 0
+                                            },
+                                            "backgroundColor": null,
+                                            "backgroundImage": null,
+                                            "classList": null,
+                                            "style": {
+                                                "name": "Default",
+                                                "label": "Default"
+                                            },
+                                            "availableStyles": [
+                                                {
+                                                    "name": "Default",
+                                                    "label": "Default"
+                                                },
+                                                {
+                                                    "name": "Square",
+                                                    "label": "Square"
+                                                },
+                                                {
+                                                    "name": "Minimal",
+                                                    "label": "Compact"
+                                                },
+                                                {
+                                                    "name": "Landscape",
+                                                    "label": "Landscape"
+                                                }
+                                            ],
+                                            "gridStyle": 2
+                                        },
+                                        "id": "cd48ebc4-3dee-4ba2-b0fe-858b16f6e5f3"
+                                    }
+                                ],
+                                "props": []
+                            }
+                        ]
                     }
-                  }
-                ],
-                "props": []
-              }
-            ]
-          },
-          {
-            "id": "8a81bbf5-fd87-4962-8e2e-0318e2124e1d",
-            "props": {
-              "paddings": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "margins": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "backgroundColor": "transparent",
-              "class": null
+                ]
             },
-            "columns": [
-              {
-                "id": "f82529d7-4004-4238-85b5-8eb35cc75ccb",
-                "components": [
-                  {
-                    "id": "ecaf4a12-5bce-4763-a546-2ab7d2f4f7f9",
-                    "name": "LazyCompanyDescription",
-                    "label": "Company Description",
-                    "props": {
-                      "paddings": {
-                        "top": 0,
-                        "bottom": 0,
-                        "left": 0,
-                        "right": 0
-                      },
-                      "margins": {
-                        "top": 0,
-                        "bottom": 0,
-                        "left": 0,
-                        "right": 0
-                      }
-                    }
-                  }
-                ],
-                "props": []
-              }
-            ]
-          }
-        ]
-      },
-      "about": {
-        "showPageHeader": false,
-        "showBreadcrumb": false,
-        "backgroundColor": "transparent",
-        "classList": null,
-        "sections": [
-          {
-            "id": "ab379ffe-6fac-4024-bc06-8f2fad63a59a",
-            "props": {
-              "paddings": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "margins": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "backgroundColor": "transparent",
-              "classList": "bg-primary"
-            },
-            "columns": [
-              {
-                "id": "50fe68f0-aa9c-44ff-aacb-e9a6a2f88351",
-                "components": [
-                  {
-                    "id": "22040f57-4380-443f-9300-29e30a8b6624",
-                    "name": "LazyBanner",
-                    "label": "Banner",
-                    "props": {
-                      "title": "<h1><span style=\"color: rgb(255, 255, 255);\">About Us</span></h1>",
-                      "subTitle": "<p><span style=\"color: rgb(255, 255, 255);\">Who we are &amp; our mission</span></p>",
-                      "backgroundColor": null,
-                      "backgroundImage": null,
-                      "classList": "container mx-auto py-12"
-                    }
-                  }
-                ],
-                "props": []
-              }
-            ]
-          },
-          {
-            "id": "dd1e10a2-d0b3-496e-b806-1825f5eb9945",
-            "props": {
-              "paddings": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "margins": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "backgroundColor": "transparent",
-              "class": null,
-              "classList": "container mx-auto px-10 text-lg"
-            },
-            "columns": [
-              {
-                "id": "53cb8542-f177-43ff-8e80-94704c6aa2b8",
-                "components": [
-                  {
-                    "name": "LazyTextContent",
-                    "label": "Text Content",
-                    "props": {
-                      "description": "<h1 class=\"ql-align-center\"><br></h1><h1 class=\"ql-align-center\"><strong>Company Name.</strong></h1><p class=\"ql-align-center\"><br></p><p class=\"ql-align-center\"><span style=\"color: rgb(0, 0, 0);\">Company Name Co., Ltd. bought the franchise from Company to operate as Company which is part of the world largest Real Estate Franchisee. Company system is comprised of more than 7,250 independently owned and operated franchised broker offices and 103,000 sales associates in 75 countries and territories worldwide. Company opened in 2015 with eight salespeople on board. The elected CEO, Mr. JONH, has leaded the sales associates and continues to be one of brokerage business specializing in selling/buying and leasing in Cambodia. We, Company Name, specialize in helping buyers and sellers experience the Cambodia dream of home ownership. Being in this business for over 40 years as a Company we always strive to make clients experience with us more than what they expected. Our use of technology today helps us communicate in a way that reaches our clients at the level they prefer. Our goal is to help the client get what they want, in the time they want so they can reach their goals as it relates to Real Estate.</span></p><p class=\"ql-align-center\"><br></p><p><br></p>"
-                    },
-                    "id": "51964a95-2cf3-433f-bfd7-6c241dfd2784"
-                  }
-                ],
-                "props": []
-              }
-            ]
-          },
-          {
-            "id": "05b9c796-143b-4882-b54d-3c894e3c63e8",
-            "props": {
-              "paddings": {
-                "top": "50px",
-                "bottom": null,
-                "left": "50px",
-                "right": "50px"
-              },
-              "margins": {
-                "top": null,
-                "bottom": null,
-                "left": null,
-                "right": null
-              },
-              "backgroundColor": null,
-              "class": null,
-              "classList": null
-            },
-            "columns": [
-              {
-                "id": "288208d7-18a3-4ece-a2b2-9b45fab216b6",
-                "components": [
-                  {
-                    "name": "LazyTextContent",
-                    "label": "Text Content",
-                    "props": {
-                      "description": "<h1 class=\"ql-align-center\"><strong>Our Mission &amp; Work Process</strong></h1><p class=\"ql-align-center\">Professional &amp; Dedicated Team</p><p><br></p>"
-                    },
-                    "id": "52011909-d338-4cfe-8d0a-7e09e23a6cda"
-                  }
-                ],
-                "props": []
-              }
-            ]
-          },
-          {
-            "id": "bd61885b-758e-499e-a070-e5440081024c",
-            "props": {
-              "paddings": {
-                "top": null,
-                "bottom": "50px",
-                "left": "50px",
-                "right": "50px"
-              },
-              "margins": {
-                "bottom": null
-              },
-              "backgroundColor": "f7fafc",
-              "class": null,
-              "classList": null
-            },
-            "columns": [
-              {
-                "id": "02484596-d688-4cf6-a4f9-6545fbd3896d",
-                "components": [
-                  {
-                    "name": "LazyCompanyAboutVision",
-                    "label": "Company Vision & Mission",
-                    "props": {
-                      "paddings": {
-                        "top": 0,
-                        "bottom": 0,
-                        "left": 0,
-                        "right": 0
-                      },
-                      "margins": {
-                        "top": 0,
-                        "bottom": 0,
-                        "left": 0,
-                        "right": 0
-                      },
-                      "style": {
-                        "name": "CompanyAboutVisionDefault",
-                        "label": "Company About Vision Default"
-                      },
-                      "availableStyles": [
-                        {
-                          "name": "CompanyAboutVisionDefault",
-                          "label": "Company About Vision Default"
+            "property": {
+                "showPageHeader": true,
+                "showBreadcrumb": true,
+                "backgroundColor": null,
+                "classList": "bg-slate-100",
+                "sections": [
+                    {
+                        "id": "4f5f5205-250a-4132-a182-3932deb6df14",
+                        "props": {
+                            "paddings": {
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0
+                            },
+                            "margins": {
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0
+                            },
+                            "backgroundColor": "transparent",
+                            "classList": null
                         },
-                        {
-                          "name": "CompanyAboutVisionGrid",
-                          "label": "Company About Vision Grid"
-                        }
-                      ],
-                      "imageUrl": "http://localhost:3000/_ipx/_/images/phnom-penh-building-night.png",
-                      "vision": "<p>Our Vision</p><ul><li>To be the number one real estate brokerage in Cambodia.</li></ul><p><br></p>",
-                      "mission": "<p>Our Mission</p><ul><li><span style=\"color: rgb(75, 85, 99);\">Using the brand to execute sales.</span></li><li><span style=\"color: rgb(75, 85, 99);\">Using the training program to develop a professional sale team.</span></li><li><span style=\"color: rgb(75, 85, 99);\">To create a commission structure that best supports the agents.</span></li></ul><p><br></p>",
-                      "coreValues": null,
-                      "coreValue": "<p>Core Values</p><ul><li><span style=\"color: rgb(75, 85, 99);\">Integrity is the highest ethical standards.</span></li><li><span style=\"color: rgb(75, 85, 99);\">Trust is our working relationship.</span></li><li><span style=\"color: rgb(75, 85, 99);\">Communication is opened and consistent.</span></li><li><span style=\"color: rgb(75, 85, 99);\">Teamwork and meeting our commitment to one another.</span></li><li><span style=\"color: rgb(75, 85, 99);\">Value for Shareholder: we provide the well-known value to shareholder via our professional team.</span></li></ul><p><br></p>"
-                    },
-                    "id": "2789ed8c-9c40-4fc1-a688-f67fb6a9b198"
-                  }
-                ],
-                "props": []
-              }
-            ]
-          }
-        ]
-      },
-      "contact": {
-        "showPageHeader": false,
-        "showBreadcrumb": false,
-        "backgroundColor": "transparent",
-        "classList": null,
-        "sections": [
-          {
-            "id": "f69dcab2-d698-48e7-b399-9134e5324f6d",
-            "props": {
-              "paddings": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "margins": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "backgroundColor": "transparent",
-              "class": null,
-              "classList": "bg-primary"
+                        "columns": [
+                            {
+                                "id": "cd5b7b0c-a390-44fe-bbac-7d1a63a175d3",
+                                "components": [
+                                    {
+                                        "id": "a05881ae-1287-47c9-a2b9-5dfa0ec048a9",
+                                        "name": "LazyPropertyDetail",
+                                        "label": "Property Detail",
+                                        "props": {
+                                            "paddings": {
+                                                "top": 0,
+                                                "bottom": 0,
+                                                "left": 0,
+                                                "right": 0
+                                            },
+                                            "margins": {
+                                                "top": 0,
+                                                "bottom": 0,
+                                                "left": 0,
+                                                "right": 0
+                                            },
+                                            "style": {
+                                                "name": "MapView",
+                                                "label": "Map View"
+                                            },
+                                            "availableStyles": [
+                                                {
+                                                    "name": "BigSlider",
+                                                    "label": "Big Slider"
+                                                },
+                                                {
+                                                    "name": "Compact",
+                                                    "label": "Compact"
+                                                },
+                                                {
+                                                    "name": "MapView",
+                                                    "label": "Map View"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "props": []
+                            }
+                        ]
+                    }
+                ]
             },
-            "columns": [
-              {
-                "id": "e4093c14-632b-4653-b0d5-e6c6dee6ccdd",
-                "components": [
-                  {
-                    "name": "LazyBanner",
-                    "label": "Banner",
-                    "props": {
-                      "title": "<h1><span style=\"color: rgb(255, 255, 255);\">Contact Us</span></h1>",
-                      "subTitle": "<p><span style=\"color: rgb(255, 255, 255);\">Send us a message</span></p>",
-                      "backgroundColor": null,
-                      "backgroundImage": null,
-                      "classList": "container mx-auto py-12"
-                    },
-                    "id": "a1527c08-671d-4ca7-bd52-8fcf20aecbac"
-                  }
-                ],
-                "props": []
-              }
-            ]
-          },
-          {
-            "id": "3668d767-cc5a-441a-b9b0-796dea883b0c",
-            "props": {
-              "paddings": {
-                "top": null,
-                "bottom": null,
-                "left": null,
-                "right": null
-              },
-              "margins": {
-                "top": null,
-                "bottom": null,
-                "left": null,
-                "right": null
-              },
-              "backgroundColor": "transparent",
-              "backgroundImage": null,
-              "class": null,
-              "classList": "container mx-auto"
-            },
-            "columns": [
-              {
-                "id": "378627ec-22b4-4e58-be4e-61169d64a306",
-                "components": [
-                  {
-                    "name": "LazyContactForm",
-                    "label": "Contact Form",
-                    "props": {
-                      "paddings": {
-                        "top": 0,
-                        "bottom": 0,
-                        "left": 0,
-                        "right": 0
-                      },
-                      "margins": {
-                        "top": 0,
-                        "bottom": 0,
-                        "left": 0,
-                        "right": 0
-                      },
-                      "style": {
-                        "name": "Default",
-                        "label": "Default"
-                      },
-                      "availableStyles": [
-                        {
-                          "name": "Default",
-                          "label": "Default"
+            "maps": {
+                "showPageHeader": true,
+                "showBreadcrumb": true,
+                "backgroundColor": "transparent",
+                "classList": "container mx-auto",
+                "sections": [
+                    {
+                        "id": "dcfd1983-8a78-4abc-a20d-e93461888379",
+                        "props": {
+                            "paddings": {
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0
+                            },
+                            "margins": {
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0
+                            },
+                            "backgroundColor": "transparent",
+                            "classList": null
                         },
-                        {
-                          "name": "MapView",
-                          "label": "Map View"
-                        }
-                      ],
-                      "description": "Name  Email  Subject  Message  Submit Request Get In Touch",
-                      "email1": "info@domain.com",
-                      "email2": "contact@domain.com",
-                      "phone1": "(855) 23 383 833",
-                      "phone2": "(855) 23 383 834"
+                        "columns": [
+                            {
+                                "id": "cead285c-0ebd-4cf9-93c4-8ddb5ee5e3c3",
+                                "components": [],
+                                "props": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "agent": {
+                "showPageHeader": false,
+                "showBreadcrumb": true,
+                "backgroundColor": "e7e5e4",
+                "classList": "pb-8",
+                "sections": [
+                    {
+                        "id": "bc2fbfc4-142a-4ccb-88d3-1f27ac669154",
+                        "props": {
+                            "paddings": {
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0
+                            },
+                            "margins": {
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0
+                            },
+                            "backgroundColor": "transparent",
+                            "classList": "bg-primary"
+                        },
+                        "columns": [
+                            {
+                                "id": "bd5e2df3-d1fe-4a11-82d4-533ab13f0e34",
+                                "components": [
+                                    {
+                                        "name": "LazyBanner",
+                                        "label": "Banner",
+                                        "props": {
+                                            "title": "<h1><span style=\"color: rgb(255, 255, 255);\">Our Agents</span></h1>",
+                                            "subTitle": "<p><span style=\"color: rgb(255, 255, 255);\">Meet our professional agents</span></p>",
+                                            "backgroundColor": null,
+                                            "backgroundImage": null,
+                                            "classList": "container mx-auto py-12 text-lg"
+                                        },
+                                        "id": "859c1551-25e4-4479-8c4e-90115d51cca5"
+                                    }
+                                ],
+                                "props": []
+                            }
+                        ]
                     },
-                    "id": "f60b1f95-26ea-4821-b493-e7b5ff69697b"
-                  }
-                ],
-                "props": []
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "colors": {
-      "main": "000000",
-      "second": "374151",
-      "third": "f5f5f5"
-    },
-    "roundSize": "rounded-sm"
-  }
+                    {
+                        "id": "44cd4fff-80cc-4770-abef-254f07db5a90",
+                        "props": {
+                            "paddings": [],
+                            "margins": [],
+                            "backgroundColor": "transparent",
+                            "class": null
+                        },
+                        "columns": [
+                            {
+                                "id": "c9ec33c3-cb54-4132-b260-94c9186321f7",
+                                "components": [
+                                    {
+                                        "name": "LazyAgentList",
+                                        "label": "Agent List",
+                                        "props": {
+                                            "paddings": {
+                                                "top": 0,
+                                                "bottom": 0,
+                                                "left": 0,
+                                                "right": 0
+                                            },
+                                            "margins": {
+                                                "top": 0,
+                                                "bottom": 0,
+                                                "left": 0,
+                                                "right": 0
+                                            },
+                                            "style": {
+                                                "name": "AgentListSquare",
+                                                "label": "Agent List Square"
+                                            },
+                                            "availableStyles": [
+                                                {
+                                                    "name": "AgentListDefault",
+                                                    "label": "Agent List Default"
+                                                },
+                                                {
+                                                    "name": "AgentListSquare",
+                                                    "label": "Agent List Square"
+                                                }
+                                            ]
+                                        },
+                                        "id": "528321dd-5c16-4bb0-83db-3e21164df3d5"
+                                    }
+                                ],
+                                "props": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "company": {
+                "showPageHeader": true,
+                "showBreadcrumb": true,
+                "backgroundColor": "transparent",
+                "classList": "container mx-auto",
+                "sections": [
+                    {
+                        "id": "3bebe74d-d15b-4470-81b6-4fa58171c3bf",
+                        "props": {
+                            "paddings": {
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0
+                            },
+                            "margins": {
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0
+                            },
+                            "backgroundColor": "transparent",
+                            "classList": null
+                        },
+                        "columns": [
+                            {
+                                "id": "1c36774c-56c2-43e3-992d-ddbf77722d81",
+                                "components": [
+                                    {
+                                        "id": "8e2d73c3-3f29-403d-ac62-90f518404fb8",
+                                        "name": "LazyBanner",
+                                        "label": "Banner",
+                                        "props": {
+                                            "title": "About Us",
+                                            "subTitle": "Who we are & our mission"
+                                        }
+                                    }
+                                ],
+                                "props": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "8a81bbf5-fd87-4962-8e2e-0318e2124e1d",
+                        "props": {
+                            "paddings": {
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0
+                            },
+                            "margins": {
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0
+                            },
+                            "backgroundColor": "transparent",
+                            "class": null
+                        },
+                        "columns": [
+                            {
+                                "id": "f82529d7-4004-4238-85b5-8eb35cc75ccb",
+                                "components": [
+                                    {
+                                        "id": "ecaf4a12-5bce-4763-a546-2ab7d2f4f7f9",
+                                        "name": "LazyCompanyDescription",
+                                        "label": "Company Description",
+                                        "props": {
+                                            "paddings": {
+                                                "top": 0,
+                                                "bottom": 0,
+                                                "left": 0,
+                                                "right": 0
+                                            },
+                                            "margins": {
+                                                "top": 0,
+                                                "bottom": 0,
+                                                "left": 0,
+                                                "right": 0
+                                            }
+                                        }
+                                    }
+                                ],
+                                "props": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "about": {
+                "showPageHeader": false,
+                "showBreadcrumb": false,
+                "backgroundColor": "transparent",
+                "classList": null,
+                "sections": [
+                    {
+                        "id": "ab379ffe-6fac-4024-bc06-8f2fad63a59a",
+                        "props": {
+                            "paddings": {
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0
+                            },
+                            "margins": {
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0
+                            },
+                            "backgroundColor": "transparent",
+                            "classList": "bg-primary"
+                        },
+                        "columns": [
+                            {
+                                "id": "50fe68f0-aa9c-44ff-aacb-e9a6a2f88351",
+                                "components": [
+                                    {
+                                        "id": "22040f57-4380-443f-9300-29e30a8b6624",
+                                        "name": "LazyBanner",
+                                        "label": "Banner",
+                                        "props": {
+                                            "title": "<h1><span style=\"color: rgb(255, 255, 255);\">About Us</span></h1>",
+                                            "subTitle": "<p><span style=\"color: rgb(255, 255, 255);\">Who we are &amp; our mission</span></p>",
+                                            "backgroundColor": null,
+                                            "backgroundImage": null,
+                                            "classList": "container mx-auto py-12"
+                                        }
+                                    }
+                                ],
+                                "props": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "dd1e10a2-d0b3-496e-b806-1825f5eb9945",
+                        "props": {
+                            "paddings": {
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0
+                            },
+                            "margins": {
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0
+                            },
+                            "backgroundColor": "transparent",
+                            "class": null,
+                            "classList": "container mx-auto px-10 text-lg"
+                        },
+                        "columns": [
+                            {
+                                "id": "53cb8542-f177-43ff-8e80-94704c6aa2b8",
+                                "components": [
+                                    {
+                                        "name": "LazyTextContent",
+                                        "label": "Text Content",
+                                        "props": {
+                                            "description": "<h1 class=\"ql-align-center\"><br></h1><h1 class=\"ql-align-center\"><strong>Company Name.</strong></h1><p class=\"ql-align-center\"><br></p><p class=\"ql-align-center\"><span style=\"color: rgb(0, 0, 0);\">Company Name Co., Ltd. bought the franchise from Company to operate as Company which is part of the world largest Real Estate Franchisee. Company system is comprised of more than 7,250 independently owned and operated franchised broker offices and 103,000 sales associates in 75 countries and territories worldwide. Company opened in 2015 with eight salespeople on board. The elected CEO, Mr. JONH, has leaded the sales associates and continues to be one of brokerage business specializing in selling/buying and leasing in Cambodia. We, Company Name, specialize in helping buyers and sellers experience the Cambodia dream of home ownership. Being in this business for over 40 years as a Company we always strive to make clients experience with us more than what they expected. Our use of technology today helps us communicate in a way that reaches our clients at the level they prefer. Our goal is to help the client get what they want, in the time they want so they can reach their goals as it relates to Real Estate.</span></p><p class=\"ql-align-center\"><br></p><p><br></p>"
+                                        },
+                                        "id": "51964a95-2cf3-433f-bfd7-6c241dfd2784"
+                                    }
+                                ],
+                                "props": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "05b9c796-143b-4882-b54d-3c894e3c63e8",
+                        "props": {
+                            "paddings": {
+                                "top": "50px",
+                                "bottom": null,
+                                "left": "50px",
+                                "right": "50px"
+                            },
+                            "margins": {
+                                "top": null,
+                                "bottom": null,
+                                "left": null,
+                                "right": null
+                            },
+                            "backgroundColor": null,
+                            "class": null,
+                            "classList": null
+                        },
+                        "columns": [
+                            {
+                                "id": "288208d7-18a3-4ece-a2b2-9b45fab216b6",
+                                "components": [
+                                    {
+                                        "name": "LazyTextContent",
+                                        "label": "Text Content",
+                                        "props": {
+                                            "description": "<h1 class=\"ql-align-center\"><strong>Our Mission &amp; Work Process</strong></h1><p class=\"ql-align-center\">Professional &amp; Dedicated Team</p><p><br></p>"
+                                        },
+                                        "id": "52011909-d338-4cfe-8d0a-7e09e23a6cda"
+                                    }
+                                ],
+                                "props": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "bd61885b-758e-499e-a070-e5440081024c",
+                        "props": {
+                            "paddings": {
+                                "top": null,
+                                "bottom": "50px",
+                                "left": "50px",
+                                "right": "50px"
+                            },
+                            "margins": {
+                                "bottom": null
+                            },
+                            "backgroundColor": "f7fafc",
+                            "class": null,
+                            "classList": null
+                        },
+                        "columns": [
+                            {
+                                "id": "02484596-d688-4cf6-a4f9-6545fbd3896d",
+                                "components": [
+                                    {
+                                        "name": "LazyCompanyAboutVision",
+                                        "label": "Company Vision & Mission",
+                                        "props": {
+                                            "paddings": {
+                                                "top": 0,
+                                                "bottom": 0,
+                                                "left": 0,
+                                                "right": 0
+                                            },
+                                            "margins": {
+                                                "top": 0,
+                                                "bottom": 0,
+                                                "left": 0,
+                                                "right": 0
+                                            },
+                                            "style": {
+                                                "name": "CompanyAboutVisionDefault",
+                                                "label": "Company About Vision Default"
+                                            },
+                                            "availableStyles": [
+                                                {
+                                                    "name": "CompanyAboutVisionDefault",
+                                                    "label": "Company About Vision Default"
+                                                },
+                                                {
+                                                    "name": "CompanyAboutVisionGrid",
+                                                    "label": "Company About Vision Grid"
+                                                }
+                                            ],
+                                            "imageUrl": "http://localhost:3000/_ipx/_/images/phnom-penh-building-night.png",
+                                            "vision": "<p>Our Vision</p><ul><li>To be the number one real estate brokerage in Cambodia.</li></ul><p><br></p>",
+                                            "mission": "<p>Our Mission</p><ul><li><span style=\"color: rgb(75, 85, 99);\">Using the brand to execute sales.</span></li><li><span style=\"color: rgb(75, 85, 99);\">Using the training program to develop a professional sale team.</span></li><li><span style=\"color: rgb(75, 85, 99);\">To create a commission structure that best supports the agents.</span></li></ul><p><br></p>",
+                                            "coreValues": null,
+                                            "coreValue": "<p>Core Values</p><ul><li><span style=\"color: rgb(75, 85, 99);\">Integrity is the highest ethical standards.</span></li><li><span style=\"color: rgb(75, 85, 99);\">Trust is our working relationship.</span></li><li><span style=\"color: rgb(75, 85, 99);\">Communication is opened and consistent.</span></li><li><span style=\"color: rgb(75, 85, 99);\">Teamwork and meeting our commitment to one another.</span></li><li><span style=\"color: rgb(75, 85, 99);\">Value for Shareholder: we provide the well-known value to shareholder via our professional team.</span></li></ul><p><br></p>"
+                                        },
+                                        "id": "2789ed8c-9c40-4fc1-a688-f67fb6a9b198"
+                                    }
+                                ],
+                                "props": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "contact": {
+                "showPageHeader": false,
+                "showBreadcrumb": false,
+                "backgroundColor": "transparent",
+                "classList": null,
+                "sections": [
+                    {
+                        "id": "f69dcab2-d698-48e7-b399-9134e5324f6d",
+                        "props": {
+                            "paddings": {
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0
+                            },
+                            "margins": {
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0
+                            },
+                            "backgroundColor": "transparent",
+                            "class": null,
+                            "classList": "bg-primary"
+                        },
+                        "columns": [
+                            {
+                                "id": "e4093c14-632b-4653-b0d5-e6c6dee6ccdd",
+                                "components": [
+                                    {
+                                        "name": "LazyBanner",
+                                        "label": "Banner",
+                                        "props": {
+                                            "title": "<h1><span style=\"color: rgb(255, 255, 255);\">Contact Us</span></h1>",
+                                            "subTitle": "<p><span style=\"color: rgb(255, 255, 255);\">Send us a message</span></p>",
+                                            "backgroundColor": null,
+                                            "backgroundImage": null,
+                                            "classList": "container mx-auto py-12"
+                                        },
+                                        "id": "a1527c08-671d-4ca7-bd52-8fcf20aecbac"
+                                    }
+                                ],
+                                "props": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3668d767-cc5a-441a-b9b0-796dea883b0c",
+                        "props": {
+                            "paddings": {
+                                "top": null,
+                                "bottom": null,
+                                "left": null,
+                                "right": null
+                            },
+                            "margins": {
+                                "top": null,
+                                "bottom": null,
+                                "left": null,
+                                "right": null
+                            },
+                            "backgroundColor": "transparent",
+                            "backgroundImage": null,
+                            "class": null,
+                            "classList": "container mx-auto"
+                        },
+                        "columns": [
+                            {
+                                "id": "378627ec-22b4-4e58-be4e-61169d64a306",
+                                "components": [
+                                    {
+                                        "name": "LazyContactForm",
+                                        "label": "Contact Form",
+                                        "props": {
+                                            "paddings": {
+                                                "top": 0,
+                                                "bottom": 0,
+                                                "left": 0,
+                                                "right": 0
+                                            },
+                                            "margins": {
+                                                "top": 0,
+                                                "bottom": 0,
+                                                "left": 0,
+                                                "right": 0
+                                            },
+                                            "style": {
+                                                "name": "Default",
+                                                "label": "Default"
+                                            },
+                                            "availableStyles": [
+                                                {
+                                                    "name": "Default",
+                                                    "label": "Default"
+                                                },
+                                                {
+                                                    "name": "MapView",
+                                                    "label": "Map View"
+                                                }
+                                            ],
+                                            "description": "Name  Email  Subject  Message  Submit Request Get In Touch",
+                                            "email1": "info@domain.com",
+                                            "email2": "contact@domain.com",
+                                            "phone1": "(855) 23 383 833",
+                                            "phone2": "(855) 23 383 834"
+                                        },
+                                        "id": "f60b1f95-26ea-4821-b493-e7b5ff69697b"
+                                    }
+                                ],
+                                "props": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "colors": {
+            "main": "000000",
+            "second": "374151",
+            "third": "f5f5f5"
+        },
+        "roundSize": "rounded-sm"
+    }
 }

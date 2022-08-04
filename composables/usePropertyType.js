@@ -1,24 +1,24 @@
 import { useStore } from '@nuxtjs/composition-api'
 
 export default function usePropertyType() {
-  const store = useStore()
+    const { store } = useStore()
 
-  const findPropertyTypeIdByName = (name) => {
-    if (!name) {
-      return null
+    const findPropertyTypeIdByName = (name) => {
+        if (!name) {
+            return null
+        }
+
+        const propertyType =
+            store.getters['propertyType/getPropertyTypeByName'](name)
+
+        if (!propertyType) {
+            return null
+        }
+
+        return propertyType.id
     }
 
-    const propertyType =
-      store.getters['propertyType/getPropertyTypeByName'](name)
-
-    if (!propertyType) {
-      return null
+    return {
+        findPropertyTypeIdByName
     }
-
-    return propertyType.id
-  }
-
-  return {
-    findPropertyTypeIdByName
-  }
 }

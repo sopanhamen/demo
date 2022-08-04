@@ -8,16 +8,20 @@ import {
     map,
     moment,
     primevue,
-    proxy,
+    // proxy,
     recaptcha,
     analytic
 } from './config'
 
 export default {
-    // Global page headers: https://go.nuxtjs.dev/config-head
-
     ssr: true,
     target: 'server',
+
+    serverMiddleware: {
+        '/_ipx': '~/server/middleware/ipx.js'
+    },
+
+    // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
         title: app.name,
         htmlAttrs: {
@@ -41,6 +45,9 @@ export default {
         theme_color: '#2C3E50',
         start_url: '/'
     },
+
+    // Auto import components
+    components: true,
 
     // Global CSS: https://go.nuxtjs.dev/config-css
     css: [
@@ -69,8 +76,6 @@ export default {
         { src: '~/plugins/qrcode.js', ssr: false }
     ],
 
-    // Auto import components: https://go.nuxtjs.dev/config-components
-    components: true,
     // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
     buildModules: [
         '@nuxt/postcss8',
@@ -82,6 +87,7 @@ export default {
         '@nuxtjs/dotenv',
         '@nuxtjs/moment'
     ],
+
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [
         '@nuxtjs/axios',
@@ -90,9 +96,21 @@ export default {
         '@nuxtjs/i18n',
         'primevue/nuxt'
     ],
+
     purgeCSS: {
         whitelistPatterns: [/svg.*/, /fa.*/]
     },
+
+    // Plugin configs
+    axios,
+    // proxy,
+    auth,
+    image,
+    i18n,
+    moment,
+    primevue,
+    googleFonts: font,
+
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {
         transpile: ['primevue', /^vue2-google-maps($|\/)/, 'pdfvuer'],
@@ -103,7 +121,6 @@ export default {
             }
         }
     },
-    // Custom progress bar color
     loading: {
         color: 'indigo',
         height: '2px'
@@ -115,7 +132,7 @@ export default {
     },
     publicRuntimeConfig: {
         app,
-        proxy,
+        // proxy,
         axios: {
             ...axios,
             browserBaseURL: process.env.API_URL_BROWSER
@@ -128,14 +145,5 @@ export default {
         googleAnalytics: {
             id: analytic.id
         }
-    },
-    // Plugin configs
-    axios,
-    proxy,
-    auth,
-    image,
-    i18n,
-    moment,
-    primevue,
-    googleFonts: font
+    }
 }

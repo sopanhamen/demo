@@ -1,17 +1,17 @@
 {
-  "placeholder": "common.select_template",
-  "options": [
-    {
-      "name": "common.land_scape",
-      "sub_title": "common.land_scape_sub_title",
-      "code": "LS",
-      "img": "https://c21m.domain.com/remadmin/public/images/proposal_template/tmpl_fulldetail.png"
-    },
-    {
-      "name": "common.portrait_full_detail",
-      "sub_title": "common.portrait_full_detail_sub_title",
-      "code": "PFD",
-      "img": "https://c21m.domain.com/remadmin/public/images/proposal_template/tmpl_landscap_report.jpg"
-    }
-  ]
+    "placeholder": "common.select_template",
+    "options": [
+        {
+            "name": "common.land_scape",
+            "sub_title": "common.land_scape_sub_title",
+            "code": "LS",
+            "img": "https://c21m.domain.com/remadmin/public/images/proposal_template/tmpl_fulldetail.png"
+        },
+        {
+            "name": "common.portrait_full_detail",
+            "sub_title": "common.portrait_full_detail_sub_title",
+            "code": "PFD",
+            "img": "https://c21m.domain.com/remadmin/public/images/proposal_template/tmpl_landscap_report.jpg"
+        }
+    ]
 }

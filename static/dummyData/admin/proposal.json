@@ -1,34 +1,34 @@
 [
-  {
-    "tables": [
-      { "title": "proposal.model.id", "value": "10" },
-      { "title": "proposal.model.receiver_name", "value": "RR" },
-      {
-        "title": "proposal.model.created_by",
-        "value": "Admin"
-      },
-      { "title": "proposal.model.created_at", "value": "14/12/2021" },
-      { "title": "proposal.model.last_update", "value": "Admin" },
-      {
-        "title": "proposal.model.update_date",
-        "value": "14/12/2021"
-      }
-    ]
-  },
-  {
-    "tables": [
-      { "title": "proposal.model.id", "value": "10" },
-      { "title": "proposal.model.receiver_name", "value": "RR" },
-      {
-        "title": "proposal.model.created_by",
-        "value": "Admin"
-      },
-      { "title": "proposal.model.created_at", "value": "14/12/2021" },
-      { "title": "proposal.model.last_update", "value": "Admin" },
-      {
-        "title": "proposal.model.update_date",
-        "value": "14/12/2021"
-      }
-    ]
-  }
+    {
+        "tables": [
+            { "title": "proposal.model.id", "value": "10" },
+            { "title": "proposal.model.receiver_name", "value": "RR" },
+            {
+                "title": "proposal.model.created_by",
+                "value": "Admin"
+            },
+            { "title": "proposal.model.created_at", "value": "14/12/2021" },
+            { "title": "proposal.model.last_update", "value": "Admin" },
+            {
+                "title": "proposal.model.update_date",
+                "value": "14/12/2021"
+            }
+        ]
+    },
+    {
+        "tables": [
+            { "title": "proposal.model.id", "value": "10" },
+            { "title": "proposal.model.receiver_name", "value": "RR" },
+            {
+                "title": "proposal.model.created_by",
+                "value": "Admin"
+            },
+            { "title": "proposal.model.created_at", "value": "14/12/2021" },
+            { "title": "proposal.model.last_update", "value": "Admin" },
+            {
+                "title": "proposal.model.update_date",
+                "value": "14/12/2021"
+            }
+        ]
+    }
 ]

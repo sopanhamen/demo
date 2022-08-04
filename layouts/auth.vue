@@ -3,7 +3,6 @@
         <nuxt class="text-sm" />
     </main>
 </template>
-
 <script>
 export default {
     name: 'LayoutAuth',

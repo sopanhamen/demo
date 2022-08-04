@@ -1,9 +1,9 @@
 export const Topography = Object.freeze({
-  UNLEVELLED: 0,
-  LEVELLED: 1
+    UNLEVELLED: 0,
+    LEVELLED: 1
 })
 
 export const TopographyLabel = Object.freeze({
-  [Topography.LEVELLED]: 'levelled',
-  [Topography.UNLEVELLED]: 'unlevelled'
+    [Topography.LEVELLED]: 'levelled',
+    [Topography.UNLEVELLED]: 'unlevelled'
 })

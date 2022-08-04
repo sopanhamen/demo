@@ -1,35 +1,35 @@
 .carousel {
-  background: whitesmoke;
+    background: whitesmoke;
 }
 
 .carousel-cell-detail {
-  height: 500px;
-  width: 80% !important;
+    height: 500px;
+    width: 80% !important;
 }
 
 .carousel-cell {
-  width: 100%;
-  margin-right: 10px;
-  /* center images in cells with flexbox */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 100%;
+    margin-right: 10px;
+    /* center images in cells with flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* TODO: when full screen, hide Navbar */
 .carousel.is-fullscreen .carousel-cell {
-  width: 100% !important;
-  height: 100%;
+    width: 100% !important;
+    height: 100%;
 }
 
 .carousel-cell-image {
-  display: block;
-  max-height: 100%;
-  object-fit: cover;
-  width: 100%;
+    display: block;
+    max-height: 100%;
+    object-fit: cover;
+    width: 100%;
 }
 
 .carousel.is-fullscreen .carousel-cell-image {
-  max-width: 100%;
-  object-fit: contain;
+    max-width: 100%;
+    object-fit: contain;
 }

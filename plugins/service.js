@@ -35,77 +35,77 @@ import { SettingService } from '@/services/setting.service'
 import { PropertyMapService } from '~/services/property_map.service'
 
 export default ({ app: { $axios } }, inject) => {
-  const bank = new BankService($axios)
-  const bankBranch = new BankBranchService($axios)
-  const client = new ClientService($axios)
-  const clientRequirement = new ClientRequirementService($axios)
-  const requirement = new RequirementService($axios)
-  const clientType = new ClientTypeService($axios)
-  const clientPayment = new ClientPaymentService($axios)
-  const commune = new CommuneService($axios)
-  const company = new CompanyService($axios)
-  const companyBranch = new CompanyBranchService($axios)
-  const contact = new ContactService($axios)
-  const country = new CountryService($axios)
-  const developer = new DeveloperService($axios)
-  const dashboard = new DashboardService($axios)
-  const developmentType = new DevelopmentTypeService($axios)
-  const district = new DistrictService($axios)
-  const facility = new FacilityService($axios)
-  const listing = new ListingService($axios)
-  const project = new ProjectService($axios)
-  const property = new PropertyService($axios)
-  const propertyVisit = new PropertyVisitService($axios)
-  const propertyNegotiation = new PropertyNegotiationService($axios)
-  const propertyType = new PropertyTypeService($axios)
-  const province = new ProvinceService($axios)
-  const auth = new AuthService($axios)
-  const user = new UserService($axios)
-  const agent = new AgentService($axios)
-  const role = new RoleService($axios)
-  const team = new UserTeamService($axios)
-  const siteInquiry = new SiteInquiry($axios)
-  const contactCompany = new ContactCompany($axios)
-  const forgetPassword = new ForgetPassword($axios)
-  const updatePassword = new UpdatePassword($axios)
-  const setting = new SettingService($axios)
-  const propertyMap = new PropertyMapService($axios)
+    const bank = new BankService($axios)
+    const bankBranch = new BankBranchService($axios)
+    const client = new ClientService($axios)
+    const clientRequirement = new ClientRequirementService($axios)
+    const requirement = new RequirementService($axios)
+    const clientType = new ClientTypeService($axios)
+    const clientPayment = new ClientPaymentService($axios)
+    const commune = new CommuneService($axios)
+    const company = new CompanyService($axios)
+    const companyBranch = new CompanyBranchService($axios)
+    const contact = new ContactService($axios)
+    const country = new CountryService($axios)
+    const developer = new DeveloperService($axios)
+    const dashboard = new DashboardService($axios)
+    const developmentType = new DevelopmentTypeService($axios)
+    const district = new DistrictService($axios)
+    const facility = new FacilityService($axios)
+    const listing = new ListingService($axios)
+    const project = new ProjectService($axios)
+    const property = new PropertyService($axios)
+    const propertyVisit = new PropertyVisitService($axios)
+    const propertyNegotiation = new PropertyNegotiationService($axios)
+    const propertyType = new PropertyTypeService($axios)
+    const province = new ProvinceService($axios)
+    const auth = new AuthService($axios)
+    const user = new UserService($axios)
+    const agent = new AgentService($axios)
+    const role = new RoleService($axios)
+    const team = new UserTeamService($axios)
+    const siteInquiry = new SiteInquiry($axios)
+    const contactCompany = new ContactCompany($axios)
+    const forgetPassword = new ForgetPassword($axios)
+    const updatePassword = new UpdatePassword($axios)
+    const setting = new SettingService($axios)
+    const propertyMap = new PropertyMapService($axios)
 
-  inject('service', {
-    agent,
-    auth,
-    bank,
-    bankBranch,
-    client,
-    clientRequirement,
-    requirement,
-    clientType,
-    clientPayment,
-    commune,
-    company,
-    companyBranch,
-    contact,
-    country,
-    developer,
-    dashboard,
-    developmentType,
-    district,
-    facility,
-    listing,
-    project,
-    property,
-    propertyMap,
-    propertyVisit,
-    propertyNegotiation,
-    propertyType,
-    province,
-    role,
-    team,
-    user,
-    siteInquiry,
-    contactCompany,
-    forgetPassword,
-    updatePassword,
-    setting
-  })
+    inject('service', {
+        agent,
+        auth,
+        bank,
+        bankBranch,
+        client,
+        clientRequirement,
+        requirement,
+        clientType,
+        clientPayment,
+        commune,
+        company,
+        companyBranch,
+        contact,
+        country,
+        developer,
+        dashboard,
+        developmentType,
+        district,
+        facility,
+        listing,
+        project,
+        property,
+        propertyMap,
+        propertyVisit,
+        propertyNegotiation,
+        propertyType,
+        province,
+        role,
+        team,
+        user,
+        siteInquiry,
+        contactCompany,
+        forgetPassword,
+        updatePassword,
+        setting
+    })
 }

@@ -1,42 +1,42 @@
 [
-  {
-    "tables": [
-      { "title": "loan.id", "value": "58" },
-      { "title": "loan.borrower_name", "value": "Villa Queen A" },
-      {
-        "title": "loan.type_of",
-        "value": "HOMES"
-      },
-      { "title": "loan.borrower", "value": "50000 $" },
-      { "title": "loan.loan_amount", "value": "7.3%" },
-      {
-        "title": "loan.annual_interest",
-        "value": "10"
-      },
-      { "title": "loan.rate", "value": "7.3%" },
-      { "title": "loan.loan_period", "value": "10" },
-      { "title": "loan.start_date", "value": "20/03/2021" },
-      { "title": "loan.analyzed_by", "value": "N/A" },
-      {
-        "title": "loan.analyzed_date",
-        "value": "16/09/2021"
-      },
-      { "title": "loan.approved_by", "value": "N/A" },
-      {
-        "title": "loan.approved_date",
-        "value": "16/09/2021"
-      },
-      { "title": "loan.last_updated", "value": "16/09/2021" },
-      { "title": "loan.created_by", "value": "N/A" },
-      {
-        "title": "loan.created_at",
-        "value": "16/09/2021"
-      },
-      { "title": "loan.last_updated", "value": "16/09/2021" },
-      {
-        "title": "loan.status",
-        "value": "14/12/2021"
-      }
-    ]
-  }
+    {
+        "tables": [
+            { "title": "loan.id", "value": "58" },
+            { "title": "loan.borrower_name", "value": "Villa Queen A" },
+            {
+                "title": "loan.type_of",
+                "value": "HOMES"
+            },
+            { "title": "loan.borrower", "value": "50000 $" },
+            { "title": "loan.loan_amount", "value": "7.3%" },
+            {
+                "title": "loan.annual_interest",
+                "value": "10"
+            },
+            { "title": "loan.rate", "value": "7.3%" },
+            { "title": "loan.loan_period", "value": "10" },
+            { "title": "loan.start_date", "value": "20/03/2021" },
+            { "title": "loan.analyzed_by", "value": "N/A" },
+            {
+                "title": "loan.analyzed_date",
+                "value": "16/09/2021"
+            },
+            { "title": "loan.approved_by", "value": "N/A" },
+            {
+                "title": "loan.approved_date",
+                "value": "16/09/2021"
+            },
+            { "title": "loan.last_updated", "value": "16/09/2021" },
+            { "title": "loan.created_by", "value": "N/A" },
+            {
+                "title": "loan.created_at",
+                "value": "16/09/2021"
+            },
+            { "title": "loan.last_updated", "value": "16/09/2021" },
+            {
+                "title": "loan.status",
+                "value": "14/12/2021"
+            }
+        ]
+    }
 ]

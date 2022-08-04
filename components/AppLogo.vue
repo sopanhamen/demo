@@ -40,6 +40,7 @@ export default {
             showLogo: false
         }
     },
+
     computed: {
         ...mapGetters({
             getCompany: 'company/getCompanies'
@@ -58,6 +59,7 @@ export default {
     mounted() {
         setTimeout(() => {
             this.showLogo = true
+            console.log('company', this.company)
         }, 500)
     }
 }

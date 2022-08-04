@@ -1,44 +1,44 @@
 import { useStore } from '@nuxtjs/composition-api'
 
 export default function useDeveloper() {
-  const store = useStore()
-  const findDeveloperIdByName = (name) => {
-    if (!name) {
-      return null
+    const { store } = useStore()
+    const findDeveloperIdByName = (name) => {
+        if (!name) {
+            return null
+        }
+        const developer = store.getters['developer/getProjectByName'](name)
+        if (!developer) {
+            return null
+        }
+
+        return developer.id
     }
-    const developer = store.getters['developer/getProjectByName'](name)
-    if (!developer) {
-      return null
+
+    const fetchDeveloperByDevelopmentType = (developmentTypeId) => {
+        store.dispatch(
+            'developer/fetchDeveloperByDevelopmentType',
+            developmentTypeId
+        )
     }
 
-    return developer.id
-  }
+    const developerOfDevelopmentType = (developmentTypeId) => {
+        return store.getters['developer/getDeveloperByDevelopmentTypeId'](
+            developmentTypeId
+        )
+    }
+    const publishedDevelopers = () => {
+        return store.getters['developer/getPublishedDevelopers']
+    }
 
-  const fetchDeveloperByDevelopmentType = (developmentTypeId) => {
-    store.dispatch(
-      'developer/fetchDeveloperByDevelopmentType',
-      developmentTypeId
-    )
-  }
+    const allDevelopers = () => {
+        return store.getters['developer/getDevelopers']
+    }
 
-  const developerOfDevelopmentType = (developmentTypeId) => {
-    return store.getters['developer/getDeveloperByDevelopmentTypeId'](
-      developmentTypeId
-    )
-  }
-  const publishedDevelopers = () => {
-    return store.getters['developer/getPublishedDevelopers']
-  }
-
-  const allDevelopers = () => {
-    return store.getters['developer/getDevelopers']
-  }
-
-  return {
-    allDevelopers,
-    fetchDeveloperByDevelopmentType,
-    developerOfDevelopmentType,
-    findDeveloperIdByName,
-    publishedDevelopers
-  }
+    return {
+        allDevelopers,
+        fetchDeveloperByDevelopmentType,
+        developerOfDevelopmentType,
+        findDeveloperIdByName,
+        publishedDevelopers
+    }
 }
