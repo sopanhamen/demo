@@ -2,7 +2,7 @@ import { computed, ref, useContext, useStore } from '@nuxtjs/composition-api'
 
 export default function useUser() {
     const { $service } = useContext()
-    const { store } = useStore()
+    const store = useStore()
 
     const users = ref([])
 

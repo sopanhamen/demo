@@ -1,7 +1,7 @@
 import { useStore } from '@nuxtjs/composition-api'
 
 export default function useDeveloper() {
-    const { store } = useStore()
+    const store = useStore()
     const findDeveloperIdByName = (name) => {
         if (!name) {
             return null

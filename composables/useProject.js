@@ -2,7 +2,7 @@ import { ref, useContext, useStore } from '@nuxtjs/composition-api'
 
 export default function useProject() {
     const { $service } = useContext()
-    const { store } = useStore()
+    const store = useStore()
     const projects = ref([])
     const findProjectIdByName = (name) => {
         if (!name) {

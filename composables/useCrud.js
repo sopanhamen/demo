@@ -3,7 +3,7 @@ import { isValid, format } from 'date-fns'
 import { cloneDeep } from 'lodash'
 
 export default function useCrud(service, moduleName, defaultCrudOptions = {}) {
-    const { store } = useStore('crud')
+    const store = useStore('crud')
 
     store.commit('crud/ADD_MODULE', {
         module: moduleName,

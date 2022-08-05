@@ -2,7 +2,7 @@ import { useContext, useStore } from '@nuxtjs/composition-api'
 import { DirectionLabel } from '@/enums/Direction'
 import { RoadConditionLabel } from '@/enums/RoadCondition'
 function useLocation() {
-    const { store } = useStore()
+    const store = useStore()
     const { i18n } = useContext()
 
     const countryName = (countryId) => {

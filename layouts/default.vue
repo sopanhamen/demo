@@ -1,8 +1,8 @@
 <template>
     <main id="theme" class="relative h-screen flex flex-col text-base">
-        <!-- <theme-loader v-if="!loaded" /> -->
+        <theme-loader v-if="!loaded" />
         <div v-if="loaded" :data-color="color" :data-font="font || 'nunito'">
-            <!-- <component :is="navbar.name" :items="items" /> -->
+            <component :is="navbar.name" :items="items" />
 
             <div class="flex-grow pt-20">
                 <nuxt />

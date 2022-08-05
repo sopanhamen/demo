@@ -1,7 +1,7 @@
 import { useStore } from '@nuxtjs/composition-api'
 
 export default function useProvince() {
-    const { store } = useStore()
+    const store = useStore()
 
     const findProvinceIdByName = (name, countryId) => {
         if (!name) {

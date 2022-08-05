@@ -26,7 +26,7 @@ import { DesignAppealLabel } from '@/enums/DesignAppeal'
 import { FlooringMaterialLabel } from '@/enums/FloorMaterial'
 
 export default function useProperty() {
-    const { store } = useStore()
+    const store = useStore()
     const { i18n } = useContext()
     const { formatMoney } = useFormatter()
 

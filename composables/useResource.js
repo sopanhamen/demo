@@ -1,7 +1,7 @@
 import { computed, useStore } from '@nuxtjs/composition-api'
 
 export default function useResource() {
-    const store = useStore()
+    const { store } = useStore()
 
     const fetchResources = async (force = false) => {
         try {

@@ -48,7 +48,7 @@ export default function useTheme() {
         return styleList
     }
 
-    const { store } = useStore()
+    const store = useStore()
     const roundSize = computed(() => {
         const theme = store.getters['theme/getWebsiteTheme']
         if (theme?.roundSize) {
